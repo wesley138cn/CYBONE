@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CYBONE 个人数字分身：通知、WITH 会话与记忆、健康和餐饮的公开交互设计。">
+  <meta name="color-scheme" content="dark light">
+  <title>CYBONE · 个人数字分身</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#screen">跳到交互演示</a>
+  <div class="layout">
+    <aside class="intro">
+      <a class="wordmark" href="./">CYBONE<span class="brand-dot"></span></a>
+      <p class="eyebrow">PERSONAL DIGITAL COUNTERPART</p>
+      <h1>个人信息，<br>回到自己身边。</h1>
+      <p class="lead">你的通知、会话、记忆与日常记录。<br>在一个连续的个人视角里，重新连接。</p>
+      <div class="intro-bottom"><span class="label">PUBLIC DESIGN / 0.1</span><p>探索 CYBONE 的部分交互设计。<br>所有示例均为虚构数据，WITH 回复为模拟。</p><a href="./README.md">阅读项目说明 ↗</a></div>
+    </aside>
+    <section class="demo" aria-label="CYBONE 交互原型">
+      <header class="demo-header"><strong>CYBONE</strong><span class="demo-label">交互演示</span><button id="settings" class="text-button" aria-label="数据与演示说明">关于</button></header>
+      <main id="screen" tabindex="-1"></main>
+      <nav id="nav" aria-label="主导航"></nav>
+    </section>
+  </div>
+  <footer class="footer">CYBONE · 个人数字分身 <span>产品 Agent 基础：<a href="https://github.com/deepseek-ai/deepseek-harness">DeepSeek Harness</a> · <a href="./NOTICE.md">来源与许可</a></span></footer>
+  <p id="status" role="status" aria-live="polite"></p>
+  <dialog id="dialog"><div id="dialog-content"></div><form method="dialog"><button class="secondary">关闭</button></form></dialog>
+  <noscript>请启用 JavaScript 体验交互原型。产品与许可说明可直接阅读 README.md。</noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
