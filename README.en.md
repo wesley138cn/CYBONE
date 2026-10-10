@@ -4,7 +4,7 @@
 
 CYBONE brings daily notifications, conversations, memory, health and meal records into a personal context that is easier to revisit.
 
-[中文](README.md) · [Design notes](docs/DESIGN.md) · [Scope](docs/CAPABILITIES.md) · [Attribution](NOTICE.md)
+[Live demo](https://wesley138cn.github.io/CYBONE/) · [中文](README.md) · [Design notes](docs/DESIGN.md) · [Scope](docs/CAPABILITIES.md) · [Attribution](NOTICE.md)
 
 ## Public design edition
 
@@ -36,6 +36,6 @@ Local storage in the product does not imply offline AI processing: configured ex
 
 ## Upstream and license
 
-The CYBONE product uses [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) for its Agent runtime and [dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) and related components for its Android foundation. This independent public prototype does not bundle those runtimes or sources. CYBONE is not affiliated with or endorsed by those upstream projects.
+The CYBONE product uses [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) for its Agent runtime and [DeepCode (dsh-mobile-apk)](https://github.com/kelai141/dsh-mobile-apk) and related components for its Android foundation. This independent public prototype does not bundle those runtimes or sources. CYBONE is not affiliated with or endorsed by those upstream projects.
 
 Original code and documentation in this repository are MIT licensed. See [NOTICE.md](NOTICE.md), [LICENSE](LICENSE), [BRAND.md](BRAND.md) and [CONTRIBUTING.md](CONTRIBUTING.md).

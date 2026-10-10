@@ -4,7 +4,7 @@
 
 将日常通知、个人会话、记忆、健康与餐饮记录组织在一起，让个人信息更容易回顾，让交互更贴近日常生活。
 
-[English](README.en.md) · [设计说明](docs/DESIGN.md) · [功能与演示边界](docs/CAPABILITIES.md) · [来源与许可](NOTICE.md)
+[在线体验](https://wesley138cn.github.io/CYBONE/) · [English](README.en.md) · [设计说明](docs/DESIGN.md) · [功能与演示边界](docs/CAPABILITIES.md) · [来源与许可](NOTICE.md)
 
 ## 这个仓库提供什么
 
@@ -55,7 +55,7 @@ Android 端需要用户授予通知访问权限；iPhone 端需要配对并开�
 
 ## 技术基础与致谢
 
-CYBONE 产品的 Agent 运行能力基于 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness)，Android 运行基础使用了 [dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) 及相关组件。
+CYBONE 产品的 Agent 运行能力基于 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness)，Android 运行基础使用了 [DeepCode（dsh-mobile-apk）](https://github.com/kelai141/dsh-mobile-apk) 及相关组件。
 
 本仓库的公开原型独立运行，不包含或分发上述运行时及其源码。CYBONE 是独立项目，与上述上游项目不存在官方隶属或背书关系。详见 [NOTICE.md](NOTICE.md)。
 

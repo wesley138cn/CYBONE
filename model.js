@@ -17,7 +17,7 @@ export function parseState(raw) {
 export const escapeHtml = text => String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const calories = state => state.meals.reduce((sum,meal)=>sum+meal.kcal,0);
 export function reply(text,state) {
-  if(/记忆|记住|偏好/.test(text)) return state.memories.length ? `已确认的示例记忆：${state.memories.map(x=>x.text).join(' ')} 你可以在“记忆”中编辑或删除。` : '当前没有记忆。你可以在“记忆”中手动添加一条演示偏好。';
+  if(/记忆|记住|偏好/.test(text)) return state.memories.length ? `已确认的示例记忆摘要：${state.memories.map(x=>x.text).join(' ').slice(0,2400)} 你可以在“记忆”中编辑或删除。` : '当前没有记忆。你可以在“记忆”中手动添加一条演示偏好。';
   if(/餐|吃|热量/.test(text)) return `演示餐饮记录共 ${state.meals.length} 条，热量合计 ${calories(state)} kcal。这是示例与手动输入的汇总，不是营养分析。`;
   return `当前有 ${state.notices.length} 条演示通知。你可以回到 TODAY 查看来源。这条回复由固定规则生成，未调用模型，也不会自动保存为记忆。`;
 }

@@ -7,7 +7,7 @@
 CYBONE 产品使用以下技术基础，谨向上游贡献者致谢：
 
 - DeepSeek Harness（DSH）：<https://github.com/deepseek-ai/deepseek-harness>
-- dsh-mobile-apk 及相关组件：<https://github.com/kelai141/dsh-mobile-apk>
+- DeepCode（dsh-mobile-apk）及相关组件：<https://github.com/kelai141/dsh-mobile-apk>
 
 这些链接说明产品来源；本公开原型不包含这些项目的代码或二进制，不需要启动它们即可运行。上游项目各自的许可由各自仓库与实际使用版本的许可文件决定，本仓库的 MIT License 不对上游作品重新授权。
 
